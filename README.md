@@ -1,26 +1,28 @@
-# Book Store MERN stack project
+# UFP Module 7 Book Store
 
-## Lessons
+# INSTRUCTIONS
 
-- [x] Lesson 01: Create Node.js project from scratch
-- [x] Lesson 02: Create our first Http Route
-- [x] Lesson 03: Add MongoDB and mongoose to node js
-- [x] Lesson 04: Create Book model with mongoose
-- [x] Lesson 05: Save a new Book with mongoose
-- [x] Lesson 06: Get All Books with mongoose
-- [x] Lesson 07: Get One Book by id with mongoose
-- [x] Lesson 08: Update a Book with mongoose
-- [x] Lesson 09: Delete a book with mongoose
-- [x] Lesson 10: Refactor Node js with express router
-- [x] Lesson 11: CORS policy in Node js and Express js
-- [x] Lesson 12: Create React project, Vite, Tailwind CSS
-- [x] Lesson 13: SPA and Add react router dom
-- [x] Lesson 14: Show Books List in React
-- [x] Lesson 15: Show Book Details in React
-- [x] Lesson 16: Create Book in React
-- [x] Lesson 17: Edit Book in React
-- [x] Lesson 18: Delete Book in React
-- [x] Lesson 19: Show Books List as Card
-- [x] Lesson 20: Make Book Card a single component
-- [x] Lesson 21: Add Book Modal
-- [x] Lesson 22: Improve User Experience (UX) with beautiful alert
+## 
+Please run npm install on the root of this both frontend and backend projecs to install all the dependancies.
+
+## Run the project
+
+Ensure that you have a local `MongoDB docker container running`
+
+```
+npm start
+```
+## Web results:
+since this is a plain API, we need to use postman or equivalent to retrive the information
+```
+navigate to -> localhost:5000/api/users
+```
+this should bring back the following:
+![alt text](users.png)
+and for the actual data
+![alt text](data.png)
+
+## Postman Collections:
+
+![Alt text](getusers.png)
+![Alt text](image.png)
